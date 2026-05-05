@@ -1,0 +1,16 @@
+export const colors = {
+  bg: '#0a0f0d',
+  surface: '#111814',
+  surface2: '#182318',
+  border: '#1e3028',
+  green: '#22c55e',
+  greenDim: '#16a34a',
+  greenFaint: 'rgba(34,197,94,0.12)',
+  greenBorder: 'rgba(34,197,94,0.25)',
+  text: '#f0fdf4',
+  muted: '#6b7c72',
+  muted2: '#4a5c52',
+  amber: '#f59e0b',
+  amberFaint: 'rgba(245,158,11,0.12)',
+  red: '#ef4444',
+};
