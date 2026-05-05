@@ -13,11 +13,7 @@
     },
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier": "com.onetouchhealth.app",
-      "infoPlist": {
-        "NSCameraUsageDescription": "OneTouch Health needs camera access to measure your heart rate using your fingertip.",
-        "NSPhotoLibraryUsageDescription": "OneTouch Health needs photo library access."
-      }
+      "bundleIdentifier": "com.onetouchhealth.app"
     },
     "android": {
       "adaptiveIcon": {
@@ -28,6 +24,20 @@
       "permissions": ["CAMERA", "FLASHLIGHT"]
     },
     "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "OneTouch Health needs camera access to measure your heart rate."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "e865d515-e9fa-4707-9840-5c5eef709797"
+      }
+    }
+  }
+}
       [
         "expo-camera",
         {
